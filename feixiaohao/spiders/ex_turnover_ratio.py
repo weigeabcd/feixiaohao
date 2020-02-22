@@ -35,7 +35,8 @@ def main():
         print(coincode,symbol_pair,price,volume,accounting,update_time)
 
 
-main()
+if __name__=="__main__":
+    main()
 
 
 

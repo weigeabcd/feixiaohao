@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from scrapy import  Spider,Request
+from scrapy import Spider,Request
 from feixiaohao.db.mysqlhelper import MysqlHelper
 from feixiaohao import items
 import logging

@@ -73,4 +73,5 @@ def main():
             parse_data(text, spider_coin_record_id)
         # break
 
-main()
+if __name__=="__main__":
+    main()

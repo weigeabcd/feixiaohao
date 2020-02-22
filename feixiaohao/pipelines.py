@@ -40,6 +40,7 @@ class MysqlPipeline(object):
         if isinstance(item, items.teamItem):
             table = 'team'
             self.mysql_db.dbSave(table,item)
+
         elif isinstance(item, items.eventItem):
             duplicate_item={
                 "md5":common.md5str(str(item))
