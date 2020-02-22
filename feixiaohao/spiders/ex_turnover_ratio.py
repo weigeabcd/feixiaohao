@@ -34,6 +34,7 @@ def main():
         update_time = data["update_time"]
         print(coincode,symbol_pair,price,volume,accounting,update_time)
 
+
 main()
 
 
