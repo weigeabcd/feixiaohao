@@ -47,9 +47,9 @@ class commonItemLoader(ItemLoader):
     """这是公用的ItemLoader"""
     default_output_processor = TakeFirstCustom()
 
-class teamItemLoader(commonItemLoader):
-    """这是teamItemLoader"""
-    description_in = MapComposeCustom(common.remove_tag)
+# class teamItemLoader(commonItemLoader):
+#     """这是teamItemLoader"""
+#     description_in = MapComposeCustom(common.remove_tag)
 
 class teamItem(Item):
     """这是teamItem"""
